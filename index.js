@@ -56,7 +56,8 @@ async function run() {
                 name,
                 totalBudget,
                 dailyBudget,
-                date,
+                startDate,
+                endDate,
                 image: imageBuffer
             }
             const result = await campaignList.insertOne(campaign);
