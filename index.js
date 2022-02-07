@@ -46,9 +46,8 @@ async function run() {
             const name = req.body.name;
             const totalBudget = req.body.totalBudget;
             const dailyBudget = req.body.dailyBudget;
-            const date = req.body.date;
-
-
+            const startDate = req.body.startDate;
+            const endDate = req.body.endDate;
             const pic = req.files.image;
             const picData = pic.data;
             const encodedPic = picData.toString('base64');
